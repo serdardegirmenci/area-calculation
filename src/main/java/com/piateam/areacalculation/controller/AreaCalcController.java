@@ -17,4 +17,9 @@ public class AreaCalcController {
             return areaCalcService.squareAreaCalculation(length);
     }
 
+    @PostMapping(value = "/square-area-calculation")
+    public float rectangleCalculation(@RequestParam float length, @RequestParam float floor) {
+        return areaCalcService.rectangleAreaCalculation(length, floor);
+    }
+
 }

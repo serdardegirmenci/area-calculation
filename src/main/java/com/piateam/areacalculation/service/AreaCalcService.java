@@ -7,4 +7,7 @@ public class AreaCalcService {
     public float squareAreaCalculation(float length){
         return length * length;
     }
+    public float rectangleAreaCalculation (float floor, float length){
+        return floor * length;
+    }
 }
