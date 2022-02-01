@@ -24,4 +24,7 @@ public class AreaCalcController {
 
     //test yorumu
 //yorum 5
+	//yorum 1
+	//yorum 2
+
 }
